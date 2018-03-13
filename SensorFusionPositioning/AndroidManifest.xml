@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      android:versionCode="1"
+      android:versionName="1.0" package="com.hkr.android.sensorfusion">
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
+    <application android:icon="@drawable/icon" android:label="@string/app_name">
+        <activity android:name="com.hkr.android.sensorfusion.SensorFusion"
+                  android:label="@string/app_name"
+                  android:screenOrientation="portrait" android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+    </application>
+
+
+<uses-sdk android:minSdkVersion="8"></uses-sdk>
+<uses-permission android:name="android.permission.VIBRATE"></uses-permission>
+
+<uses-permission android:name="android.permission.WAKE_LOCK"></uses-permission>
+<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
+
+
+</manifest> 

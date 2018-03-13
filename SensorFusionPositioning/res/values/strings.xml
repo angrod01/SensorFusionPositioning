@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">SensorFusion Positioning</string>
+    <string name="magValuesTag">COMPASS VALUES:</string>
+    <string name="accValuesTag">ACCELEROMETER VALUES:</string>
+    <string name="totalAccTag">TOTAL ACC: SQRT(X^2 + Y^2 + Z^2)-GRAVITY:</string>
+    <string name="totalMagTag">TOTAL MAGNETIC FIELD uT:</string>
+    <string name="oriValuesTag">ORIENTATION:</string>
+    <string name="incValueTag">INCLINATION:</string>
+    <string name="wifiTag">Wifi Points:</string>
+    <string name="show_map">Show Map</string>
+    <string name="gyroValuesTag">GYROSCOPE VALUES</string>
+    <string name="linarAccValuesTag">LINEAR ACCELERATION VALUES:</string>
+    <string name="totalLinearAccTag">TOTAL LINEAR ACC:</string>
+    <string name="record_rssi">Record 0 N</string>
+    <string name="estimate_position">Estimate Pos</string>
+    <string name="recordFP">Rec. Fingerprints</string>
+    <string name="zero_value">0</string>
+    <string name="est_position_tag">ESTIMATED POSITION:</string>
+    <string name="loadFingerprints">Load Fingerprints</string>
+    <string name="plus_265">+ 200</string>
+    <string name="minus_265">- 200</string>
+    <string name="empty"> </string>
+    <string name="calibrate">Calibrate</string>
+    <string name="rawData">Show Raw Data</string>
+    <string name="sampling">Sample Data</string>
+</resources>

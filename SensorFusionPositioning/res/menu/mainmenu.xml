@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    	<item android:id="@+id/calibrate"
+        	  android:title="@string/calibrate" />
+        <item android:id="@+id/sampling"
+        	  android:title="@string/sampling" />
+        <item android:id="@+id/record_fp"
+        	  android:title="@@string/recordFP" /> 
+    	<item android:id="@+id/load_fingerprints"
+        	  android:title="@string/loadFingerprints" />         	          	          	    
+        <item android:id="@+id/raw_data"
+        	  android:title="@string/rawData" /> 
+    	<item android:id="@+id/show_map"
+        	  android:title="@string/show_map" />   
+<!--         <item android:id="@+id/estimate_position"
+        	  android:title="@string/estimate_position" /> -->
+</menu>

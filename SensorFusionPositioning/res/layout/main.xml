@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent" android:layout_height="fill_parent" android:id="@+id/estimatedPosTag">
+<LinearLayout android:id="@+id/linearLayout1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:orientation="vertical">
+    <ImageView android:layout_width="wrap_content" android:src="@drawable/modeinitial" android:layout_height="wrap_content" android:id="@+id/logoinit"></ImageView>
+    <ImageView android:layout_width="wrap_content" android:src="@drawable/modecalibrated" android:layout_height="wrap_content" android:id="@+id/logocalibrated" android:visibility="gone"></ImageView>
+    <ImageView android:layout_width="wrap_content" android:src="@drawable/modecalibration" android:layout_height="wrap_content" android:id="@+id/logocalibration" android:visibility="gone"></ImageView>
+    <TextView android:layout_width="wrap_content" android:background="#808080" android:layout_height="wrap_content" android:text="@string/est_position_tag" android:id="@+id/titleEstimatedPos" android:visibility="gone"></TextView>
+    <TextView android:text="TextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/estimated_position"></TextView>
+    <Button android:id="@+id/Add265toX" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/plus_265"></Button>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/printXcoordinate" android:text="@string/zero_value"></EditText>
+    <Button android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/minus_265" android:id="@+id/substrac265toX"></Button>
+    <Button android:id="@+id/add265toY" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/plus_265"></Button>
+    <EditText android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/printYcoordinate" android:text="@string/zero_value"></EditText>
+    <Button android:id="@+id/substract265toY" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/minus_265"></Button>
+    <TextView android:layout_height="wrap_content" android:text="@string/empty" android:layout_width="wrap_content" android:id="@+id/textView2"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="@string/empty" android:layout_width="wrap_content" android:id="@+id/textView1"></TextView>
+    <Button android:id="@+id/record_fingerprint_button" android:text="@string/record_rssi" android:layout_width="match_parent" android:layout_height="wrap_content"></Button>
+    <TextView android:layout_height="wrap_content" android:text="@string/magValuesTag" android:layout_width="wrap_content" android:background="#808080" android:id="@+id/titleMagneticValues" android:visibility="gone"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/magValues"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="@string/gyroValuesTag" android:layout_width="wrap_content" android:background="#808080" android:id="@+id/titleGyroValues" android:visibility="gone"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/gyroValues"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="@string/accValuesTag" android:layout_width="wrap_content" android:background="#808080" android:id="@+id/titleAccValues" android:visibility="gone"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/accValues"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="@string/totalAccTag" android:layout_width="wrap_content" android:background="#808080" android:id="@+id/titleTotalAcc" android:visibility="gone"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/totalAcc"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="@string/linarAccValuesTag" android:layout_width="wrap_content" android:background="#808080" android:id="@+id/titleLinearAcc" android:visibility="gone"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/linearAccValues"></TextView>
+    <TextView android:layout_height="wrap_content" android:layout_width="wrap_content" android:background="#808080" android:id="@+id/titleTotalLinearAcc" android:text="@string/totalLinearAccTag" android:visibility="gone"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/totalLinearAcc"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="@string/oriValuesTag" android:layout_width="wrap_content" android:background="#808080" android:id="@+id/titleOrientValues" android:visibility="gone"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/oriValues"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="@string/wifiTag" android:layout_width="wrap_content" android:background="#808080" android:id="@+id/titleWiFiValues" android:visibility="gone"></TextView>
+    <TextView android:layout_height="wrap_content" android:text="N.C." android:layout_width="wrap_content" android:id="@+id/wifi"></TextView>
+    
+</LinearLayout>
+</ScrollView>
