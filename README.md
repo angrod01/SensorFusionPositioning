@@ -7,3 +7,5 @@ GPS signal is bad or unavailable. The approach is sensor-fusion: by using data f
 such as accelerometer, gyroscope and wireless adapter, the position is determined. The results show that the technique
 is promising for future handheld indoor navigation systems that can be used in malls, museums, large office buildings,
 hospitals, etc.
+
+http://hkr.diva-portal.org/smash/record.jsf?pid=diva2%3A475619&dswid=-9500
